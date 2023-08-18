@@ -352,7 +352,7 @@
     });
 
     // -------------------doughnut chart--------------------
-    var xValues = ["Computer Engineering", "Mechanical Engineering", "Civil Engineering", "Electical Engineering",
+    /* var xValues = ["Computer Engineering", "Mechanical Engineering", "Civil Engineering", "Electical Engineering",
         "Chemical Engineering", "Aeronautical Engineering"];
     var yValues = [85, 29, 34, 24, 21, 16];
     var barColors = [
@@ -380,7 +380,7 @@
             }
         }
     });
-</script>
+ */</script>
 
 
 <script>
