@@ -1,0 +1,19 @@
+.company_details{
+    /* background-color: antiquewhite; */
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.company_details h5{
+    margin: 1.3rem 0rem 0rem 0rem;
+}
+.company_details h4{
+    margin: 1.5rem 0rem 0rem 0rem;
+}
+
+.company_details th{
+    /* font-size: medium; */
+    font-size: large;
+}
+.company_details td{
+    font-size: medium;
+}
