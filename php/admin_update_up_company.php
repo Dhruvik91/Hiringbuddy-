@@ -1,5 +1,5 @@
 <?php
-include('./connection.php');
+include('../php/connection.php');
 
 $company_name = mysqli_real_escape_string($con, $_POST['company_name']);
 $company_date = mysqli_real_escape_string($con, $_POST['company_date']);

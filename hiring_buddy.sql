@@ -90,7 +90,7 @@ INSERT INTO `admin_login` (`sr_no`, `email`, `password`) VALUES
 (4, 'bhavishaodedra1@gmail.com', '45678'),
 (1, 'joshimayankh312@gmail.com', '12345'),
 (3, 'lavhadvani992@gmail.com', '34567');
-
+(5, 'dg@gmail.com', '123456'),
 -- --------------------------------------------------------
 
 --
@@ -111,9 +111,9 @@ CREATE TABLE `admin_placed_students` (
 --
 
 INSERT INTO `admin_placed_students` (`enro_no`, `f_name`, `d_name`, `last_cpi`, `company_name`, `package`) VALUES
-('15BECE1505435', 'Darshana Harshadbhai Joshi', 'Computer Engineering ', 10, 'Netflix', 100),
-('19BECE30109', 'Mayank Harshadbhai Joshi', 'Computer Engineering ', 8.92, 'Capgemini', 4.25),
-('19BECE30110', 'Maya Harshbhai shinde', 'Civil Engineering ', 8.92, 'L&T', 4.25);
+('20BECE1505435', 'Darshana Harshadbhai Joshi', 'Computer Engineering ', 10, 'Netflix', 100),
+('20BECE30109', 'Mayank Harshadbhai Joshi', 'Computer Engineering ', 8.92, 'Capgemini', 4.25),
+('20BECE30110', 'Maya Harshbhai shinde', 'Civil Engineering ', 8.92, 'L&T', 4.25);
 
 -- --------------------------------------------------------
 
@@ -136,10 +136,10 @@ CREATE TABLE `admin_students` (
 --
 
 INSERT INTO `admin_students` (`enro_no`, `f_name`, `d_name`, `last_cpi`, `status`, `company`, `package`) VALUES
-('19BECE30003', 'Smit Chahwala', 'Aeronautical Engineering', 8.56, 'placed', 'Tata', 5),
-('19BECE30014', 'Ankita Vejabhai Karavadra', 'Computer Engineering', 8.21, 'placed', 'Evision', 2.5),
-('19BECE30102', 'Lav Narotambhai Hadvani', 'Computer Engineering', 8.82, 'placed', 'capgemini', 4.25),
-('19BECE30109', 'Mayank Harshadbhai Joshi', 'Computer Engineering', 8.92, 'Placed', 'Capgemini', 5.75);
+('20BECE30003', 'Smit Chahwala', 'Aeronautical Engineering', 8.56, 'placed', 'Tata', 5),
+('20BECE30014', 'Ankita Vejabhai Karavadra', 'Computer Engineering', 8.21, 'placed', 'Evision', 2.5),
+('20BECE30102', 'Lav Narotambhai Hadvani', 'Computer Engineering', 8.82, 'placed', 'capgemini', 4.25),
+('20BECE30109', 'Mayank Harshadbhai Joshi', 'Computer Engineering', 8.92, 'Placed', 'Capgemini', 5.75);
 
 -- --------------------------------------------------------
 

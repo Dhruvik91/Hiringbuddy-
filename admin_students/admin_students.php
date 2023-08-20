@@ -107,13 +107,9 @@ $con->close();
                             <br>
 
                             <div id="placed" class="d-none">
-                                <label for="company">comapny name:</label>
-                                <select name="company" id="company" required>
-                                    <option value="none" selected>Select Company Name</option>
-                                    <option value="capgemini">capgemini</option>
-                                    <option value="tesla">Tesla</option>
-                                    <option value="tata">Tata</option>
-                                </select>
+                                <label for="company">Company name:</label>
+                                <input type="text" name="company" id="company" placeholder="Enter Company"
+                                    min="1" step="0.01" >
                                 <br>
                                 <label for="package">Package <sub> In LPA </sub> :</label>
                                 <input type="number" name="package" id="package" placeholder="Enter Package Detail"
@@ -121,13 +117,9 @@ $con->close();
                             </div>
 
                             <div id="applied" class="d-none">
-                                <label for="company">comapny name:</label>
-                                <select name="company" id="company" required>
-                                    <option value="none">Select Company Name</option>
-                                    <option value="capgemini">capgemini</option>
-                                    <option value="tesla">Tesla</option>
-                                    <option value="tata">Tata</option>
-                                </select>
+                                <label for="company">Company name:</label>
+                                <input type="text" name="company" id="company" placeholder="Enter Company"
+                                    min="1" step="0.01" >
                                 <br>
                             </div>
 
@@ -136,9 +128,9 @@ $con->close();
                     </div>
                 </form>
 
-                <!-- Update the comapny details -->
+                <!-- Update the Company details -->
                 <button id="update_company" class="btn btn-primary add_button">Update</button>
-                <form action="../php/admin_update_up_company.php" method="post">
+                <form action="../php/admin_update_up_student.php" method="post">
                     <div class="update_popup">
                         <div class="close-btn">&times;</div>
                         <div class="AD_form">
@@ -191,7 +183,7 @@ $con->close();
                             <br>
 
                             <div id="placed" class="d-none">
-                                <label for="company">comapny name:</label>
+                                <label for="company">Company name:</label>
                                 <select id="company" name="company" required>
                                     <option value="none">Select Company Name</option>
                                     <option value="capgemini">capgemini</option>
@@ -205,7 +197,7 @@ $con->close();
                             </div>
 
                             <div id="applied" class="d-none">
-                                <label for="company">comapny name:</label>
+                                <label for="company">Company name:</label>
                                 <select name="company" id="company" required>
                                     <option value="none">Select Company Name</option>
                                     <option value="capgemini">capgemini</option>
