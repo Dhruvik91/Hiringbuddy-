@@ -6,12 +6,12 @@
   $f_name = mysqli_real_escape_string($con, $_POST['f_name']);
   $d_name = mysqli_real_escape_string($con, $_POST['d_name']);
   $last_cpi = mysqli_real_escape_string($con, $_POST['last_cpi']);
-  $statusT = mysqli_real_escape_string($con, $_POST['statusT']);
+  $status = mysqli_real_escape_string($con, $_POST['status']);
   $company = mysqli_real_escape_string($con, $_POST['company']);
   $package = mysqli_real_escape_string($con, $_POST['package']);
 
-  $insert_sql = "INSERT INTO admin_students (enro_no, f_name, d_name, last_cpi, statusT, company, package) 
-  VALUES ('$enro_no', '$f_name', '$d_name', '$last_cpi', '$statusT', '$company', '$package')";
+  $insert_sql = "INSERT INTO admin_students (enro_no, f_name, d_name, last_cpi, status, company, package) 
+  VALUES ('$enro_no', '$f_name', '$d_name', '$last_cpi', '$status', '$company', '$package')";
   
   if($con->query($insert_sql) === TRUE){
   //  echo "Record Added Sucessfully";
