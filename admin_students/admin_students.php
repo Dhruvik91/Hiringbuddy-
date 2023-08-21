@@ -130,7 +130,7 @@ $con->close();
 
                 <!-- Update the Company details -->
                 <button id="update_company" class="btn btn-primary add_button">Update</button>
-                <form action="../php/admin_update_student.php" method="post">
+                <form action="../php/admin_update_students.php" method="post">
                     <div class="update_popup">
                         <div class="close-btn">&times;</div>
                         <div class="AD_form">
